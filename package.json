@@ -2,7 +2,7 @@
   "name": "leet_code_practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test:all": "TZ=UTC jest",
     "test": "node -e 'const [type, number] = process.argv.slice(1); require(\"child_process\").execSync(`jest src/${type}/${number}/${number}.test.ts`, { stdio: \"inherit\" })'",
