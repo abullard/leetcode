@@ -1,0 +1,23 @@
+{
+  "name": "leet_code_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "TZ=UTC jest",
+    "test": "node -e 'const [type, number] = process.argv.slice(1); require(\"child_process\").execSync(`jest src/${type}/${number}/${number}.test.ts`, { stdio: \"inherit\" })'",
+    "create-files": "bash ./bash/make_new_problem_dir.sh",
+    "make": "npm run create-files --", 
+    "format": "prettier --write ."
+  },
+  "author": "abullard",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
