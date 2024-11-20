@@ -7,7 +7,7 @@
     "test:all": "TZ=UTC jest",
     "test": "node -e 'const [type, number] = process.argv.slice(1); require(\"child_process\").execSync(`jest src/${type}/${number}/${number}.test.ts`, { stdio: \"inherit\" })'",
     "create-files": "bash ./bash/make_new_problem_dir.sh",
-    "make": "npm run create-files --", 
+    "make": "npm run create-files --",
     "format": "prettier --write ."
   },
   "author": "abullard",

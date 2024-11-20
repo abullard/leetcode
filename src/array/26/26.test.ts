@@ -1,6 +1,6 @@
 import { removeDuplicates } from './26';
 
-describe('Array > 26', () => {
+describe('Type: Array, Problem: 26', () => {
   it.each([
     [
       [1, 1, 2],
