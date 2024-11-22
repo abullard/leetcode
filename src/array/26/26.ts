@@ -11,6 +11,5 @@ export const removeDuplicates = (nums: number[]): number => {
     }
   }
 
-  console.log(nums);
   return nums.length;
 };
