@@ -1,3 +1,5 @@
+// Problem: https://leetcode.com/problems/climbing-stairs
+
 export const climbStairs = (n: number): number => {
     let solutions = [1, 2];
 
